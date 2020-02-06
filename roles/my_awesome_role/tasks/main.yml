@@ -27,7 +27,7 @@
 
 - name: Copy files to remote host
   copy:
-    src: files/demoapp
+    src: files/carlos
     dest: /var/www/html
     owner: apache
     group: apache
